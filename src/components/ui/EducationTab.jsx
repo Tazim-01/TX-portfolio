@@ -26,7 +26,7 @@ const EducationTab = () => {
        <div className='group'>
                  <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 md:w-[500px] w-[400px] bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
                   <div className='flex justify-between'>
-                  <div className='text-2xl text-white uppercase font-bold'>HSC</div>
+                  <div className='text-2xl text-white uppercase font-bold'>HSC<span className=' text-lightText text-lg ml-2'>(Science)</span></div>
                   <div className='text-red-600 shadow-sm shadow-black rounded-lg p-2'>Null/5</div>
            </div>
            <p className='text-md text-lightText mb-8 group-hover:text-white'>Dhaka Imperial College(Ongoing)</p>
