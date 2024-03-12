@@ -62,7 +62,7 @@ const Header = () => {
         <div className="bg-black/80 text-white min-h-screen top-0 md:hidden absolute w-full">
           <div className=" w-2/3 bg-[#16181C] min-h-screen">
             <div className="w-full flex justify-between items-center">
-            <img src={logo} alt="logo" className="w-24 m-4" />
+            <img src="TX.png" alt="TX" className="w-16 m-4 rounded-full bg-black" />
             <IoClose onClick={()=>setShowmenu(false)} className=" text-designColor/50 bg-black rounded-2xl text-3xl m-4 hover:text-designColor/100"/>
             </div>
             <p className="text-white p-5">Inbio is a all in one personal portfolio WordPress theme. You can customize everything.</p>
