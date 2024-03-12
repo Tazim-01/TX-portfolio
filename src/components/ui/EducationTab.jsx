@@ -9,7 +9,7 @@ const EducationTab = () => {
             
             
             <div className='md:flex md:justify-between md:m-20 m-5'>
-            <div className='group mb-5 md:mb-0 ml-6 md:ml-0'>
+            <div className='group mb-5 md:mb-0 ml-2 md:ml-0'>
                  <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 md:w-[500px] w-[350px] bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
                   <div className='flex justify-between'>
                   <div className='text-2xl text-white uppercase font-bold'>SSC<span className=' text-lightText text-lg ml-2'>(Science)</span></div>
@@ -23,7 +23,7 @@ const EducationTab = () => {
 
 
 
-       <div className='group ml-6 md:ml-0'>
+       <div className='group ml-2 md:ml-0'>
                  <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 md:w-[500px] w-[350px] bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
                   <div className='flex justify-between'>
                   <div className='text-2xl text-white uppercase font-bold'>HSC<span className=' text-lightText text-lg ml-2'>(Science)</span></div>
