@@ -7,10 +7,9 @@ const EducationTab = () => {
             <div className=' text-designColor'>1998 - 2010</div>
             <div className=' text-white text-5xl uppercase font-bold'>Education Qualification</div></div>
             
-            
-            <div className='md:flex md:justify-between md:m-20 m-5'>
-            <div className='group mb-5 md:mb-0 ml-2 md:ml-0'>
-                 <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 md:w-[500px] w-[350px] bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
+            <div><div className='md:flex md:justify-between md:m-20'>
+            <div className='group mb-5 md:mb-0'>
+                 <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 m-2 md:w-[500px] bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
                   <div className='flex justify-between'>
                   <div className='text-2xl text-white uppercase font-bold'>SSC<span className=' text-lightText text-lg ml-2'>(Science)</span></div>
                   <div className='text-red-600 shadow-sm shadow-black rounded-lg p-2'>4.94/5</div>
@@ -23,8 +22,8 @@ const EducationTab = () => {
 
 
 
-       <div className='group ml-2 md:ml-0'>
-                 <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 md:w-[500px] w-[350px] bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
+       <div className='group'>
+                 <div className='rounded-lg shadow-md shadow-black h-[300px] p-10 m-2 md:w-[500px] w-auto bg-[#202226] group-hover:bg-gradient-to-tr from-black to-primaryColor/80'>
                   <div className='flex justify-between'>
                   <div className='text-2xl text-white uppercase font-bold'>HSC<span className=' text-lightText text-lg ml-2'>(Science)</span></div>
                   <div className='text-red-600 shadow-sm shadow-black rounded-lg p-2'>Null/5</div>
@@ -34,7 +33,7 @@ const EducationTab = () => {
            </p>
        </div>
        </div>
-            </div>
+            </div></div>
     </div>
         
   )

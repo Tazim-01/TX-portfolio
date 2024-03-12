@@ -101,12 +101,14 @@ const ContactMe = () => {
                     </p>
                     <p className="text-white/40 uppercase">Find With Me</p>
                     <div className="flex gap-5 pt-3">
+                    <a href="https://www.facebook.com/bloodline.genos/">
                       <div
                         className="flex items-center justify-center h-10 w-10 bg-primaryColor hover:bg-[#191B1E] rounded-lg group hover:-translate-y-2 duration-500 shadow-md shadow-black
                  hover:text-designColor"
                       >
+                        
                         <FaFacebookSquare className="text-white text-2xl " />
-                      </div>
+                      </div></a>
 
                       <div className="flex items-center justify-center h-10 w-10 bg-primaryColor hover:bg-[#191B1E] rounded-lg group hover:-translate-y-2 duration-500 shadow-md shadow-black">
                         <FaWhatsapp className="text-white text-2xl" />

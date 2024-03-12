@@ -186,11 +186,11 @@ const Hero = () => {
 
        <div className="md:flex p-6 bg-primaryColor my-24">
           <div className="p-5 bg-transparent shadow-xl drop-shadow-md shadow-black rounded-md ml-4">
-            <div className="md:h-[300px] h-[450px] overflow-hidden rounded-lg">
+            <div className="md:h-[300px] overflow-hidden rounded-lg">
               <img
                 src="TX.png"
-                alt="banner2"
-                className="h-[350px] rounded-lg md:w-96 bg-black hover:scale-110 duration-500"
+                alt="TX"
+                className="h-auto rounded-lg md:w-96 bg-black hover:scale-110 duration-500"
               />
             </div>
           </div>
